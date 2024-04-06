@@ -129,6 +129,8 @@ rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
+ruff==0.3.5
+    # via -r requirements.in
 six==1.16.0
     # via
     #   bleach
