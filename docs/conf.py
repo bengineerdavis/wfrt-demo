@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'my-wfrt-demo'
+project = 'Sphinx Quickstart Guide'
 copyright = '2024, Ben Davis'
 author = 'Ben Davis'
 release = '1.0.0'
