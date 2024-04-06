@@ -1,0 +1,8 @@
+# sphinx requirements for docs
+# source: https://cerodell.github.io/sphinx-quickstart-guide/build/html/install.html
+sphinx
+jupytext
+nbsphinx
+myst-parser
+sphinx-book-theme
+sphinx-copybutton
