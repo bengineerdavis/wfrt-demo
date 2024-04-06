@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>API &#8212; Sphinx Quickstart Tutorial 1.0.0 documentation</title>
+    <title>Example Markdown &#8212; Sphinx Quickstart Tutorial 1.0.0 documentation</title>
   
   
   
@@ -40,11 +40,10 @@
     <script src="_static/doctools.js?v=888ff710"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'api';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'mymarkdown';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Example Markdown" href="mymarkdown.html" />
-    <link rel="prev" title="Welcome to Sphinx Quickstart Tutorial’s documentation!" href="index.html" />
+    <link rel="prev" title="API" href="api.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -147,8 +146,8 @@
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">API</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mymarkdown.html">Example Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Example Markdown</a></li>
 </ul>
 
     </div>
@@ -203,7 +202,7 @@
       
       
       
-      <li><a href="_sources/api.rst" target="_blank"
+      <li><a href="_sources/mymarkdown.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -213,7 +212,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.rst</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -287,7 +286,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>API</h1>
+    <h1>Example Markdown</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -297,8 +296,25 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utils.foo.module_level_variable1"><code class="docutils literal notranslate"><span class="pre">module_level_variable1</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utils.foo.module_level_function"><code class="docutils literal notranslate"><span class="pre">module_level_function()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#h2-heading">h2 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#h3-heading">h3 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#h4-heading">h4 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#h5-heading">h5 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#h6-heading">h6 Heading</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-rules">Horizontal Rules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#typographic-replacements">Typographic replacements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emphasis">Emphasis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blockquotes">Blockquotes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">Lists</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a></li>
 </ul>
             </nav>
         </div>
@@ -310,101 +326,114 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="module-utils.foo">
-<span id="api"></span><h1>API<a class="headerlink" href="#module-utils.foo" title="Link to this heading">#</a></h1>
-<p>Example NumPy style docstrings.</p>
-<p>This module demonstrates documentation as specified by the <a class="reference external" href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt">NumPy
-Documentation HOWTO</a>. Docstrings may extend over multiple lines. Sections
-are created with a section header followed by an underline of equal length.</p>
-<p class="rubric">Example</p>
-<p>Examples can be given using either the <code class="docutils literal notranslate"><span class="pre">Example</span></code> or <code class="docutils literal notranslate"><span class="pre">Examples</span></code>
-sections. Sections support any reStructuredText formatting, including
-literal blocks:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python example_numpy.py
-</pre></div>
-</div>
-<p>Section breaks are created with two blank lines. Section breaks are also
-implicitly created anytime a new section starts. Section bodies <em>may</em> be
-indented:</p>
-<p class="rubric">Notes</p>
-<p>This is an example of an indented section. It’s like any other section,
-but the body is indented to help it stand out from surrounding text.</p>
-<p>If a section is indented, then a section break is created by
-resuming unindented text.</p>
-<dl class="py attribute">
-<dt class="sig sig-object py" id="utils.foo.module_level_variable1">
-<span class="sig-prename descclassname"><span class="pre">utils.foo.</span></span><span class="sig-name descname"><span class="pre">module_level_variable1</span></span><a class="headerlink" href="#utils.foo.module_level_variable1" title="Link to this definition">#</a></dt>
-<dd><p>Module level variables may be documented in either the <code class="docutils literal notranslate"><span class="pre">Attributes</span></code>
-section of the module docstring, or in an inline docstring immediately
-following the variable.</p>
-<p>Either form is acceptable, but the two should not be mixed. Choose
-one convention to document module level variables and be consistent
-with it.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>int</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="utils.foo.module_level_function">
-<span class="sig-prename descclassname"><span class="pre">utils.foo.</span></span><span class="sig-name descname"><span class="pre">module_level_function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#utils.foo.module_level_function" title="Link to this definition">#</a></dt>
-<dd><p>This is an example of a module level function.</p>
-<p>Function parameters should be documented in the <code class="docutils literal notranslate"><span class="pre">Parameters</span></code> section.
-The name of each parameter is required. The type and description of each
-parameter is optional, but should be included if not obvious.</p>
-<p>If *args or **kwargs are accepted,
-they should be listed as <code class="docutils literal notranslate"><span class="pre">*args</span></code> and <code class="docutils literal notranslate"><span class="pre">**kwargs</span></code>.</p>
-<p>The format for a parameter is:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span> <span class="p">:</span> <span class="nb">type</span>
-    <span class="n">description</span>
-
-    <span class="n">The</span> <span class="n">description</span> <span class="n">may</span> <span class="n">span</span> <span class="n">multiple</span> <span class="n">lines</span><span class="o">.</span> <span class="n">Following</span> <span class="n">lines</span>
-    <span class="n">should</span> <span class="n">be</span> <span class="n">indented</span> <span class="n">to</span> <span class="n">match</span> <span class="n">the</span> <span class="n">first</span> <span class="n">line</span> <span class="n">of</span> <span class="n">the</span> <span class="n">description</span><span class="o">.</span>
-    <span class="n">The</span> <span class="s2">&quot;: type&quot;</span> <span class="ow">is</span> <span class="n">optional</span><span class="o">.</span>
-
-    <span class="n">Multiple</span> <span class="n">paragraphs</span> <span class="n">are</span> <span class="n">supported</span> <span class="ow">in</span> <span class="n">parameter</span>
-    <span class="n">descriptions</span><span class="o">.</span>
-</pre></div>
-</div>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>param1</strong> (<em>int</em>) – The first parameter.</p></li>
-<li><p><strong>param2</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – The second parameter.</p></li>
-<li><p><strong>*args</strong> – Variable length argument list.</p></li>
-<li><p><strong>**kwargs</strong> – Arbitrary keyword arguments.</p></li>
+  <section id="example-markdown">
+<h1>Example Markdown<a class="headerlink" href="#example-markdown" title="Link to this heading">#</a></h1>
+<section id="h2-heading">
+<h2>h2 Heading<a class="headerlink" href="#h2-heading" title="Link to this heading">#</a></h2>
+<section id="h3-heading">
+<h3>h3 Heading<a class="headerlink" href="#h3-heading" title="Link to this heading">#</a></h3>
+<section id="h4-heading">
+<h4>h4 Heading<a class="headerlink" href="#h4-heading" title="Link to this heading">#</a></h4>
+<section id="h5-heading">
+<h5>h5 Heading<a class="headerlink" href="#h5-heading" title="Link to this heading">#</a></h5>
+<section id="h6-heading">
+<h6>h6 Heading<a class="headerlink" href="#h6-heading" title="Link to this heading">#</a></h6>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="horizontal-rules">
+<h2>Horizontal Rules<a class="headerlink" href="#horizontal-rules" title="Link to this heading">#</a></h2>
+</section>
+<section id="typographic-replacements">
+<h2>Typographic replacements<a class="headerlink" href="#typographic-replacements" title="Link to this heading">#</a></h2>
+<p>Enable typographer option to see result.</p>
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
+<p>test.. test… test….. test?….. test!….</p>
+<p>!!!!!! ???? ,,  – —</p>
+<p>“Smartypants, double quotes” and ‘single quotes’</p>
+</section>
+<section id="emphasis">
+<h2>Emphasis<a class="headerlink" href="#emphasis" title="Link to this heading">#</a></h2>
+<p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p>~~Strikethrough~~</p>
+</section>
+<section id="blockquotes">
+<h2>Blockquotes<a class="headerlink" href="#blockquotes" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p>Blockquotes can also be nested…</p>
+<blockquote>
+<div><p>…by using additional greater-than signs right next to each other…</p>
+<blockquote>
+<div><p>…or with spaces between arrows.</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</section>
+<section id="lists">
+<h2>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h2>
+<p>Unordered</p>
+<ul class="simple">
+<li><p>Create a list by starting a line with <code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">-</span></code>, or <code class="docutils literal notranslate"><span class="pre">*</span></code></p></li>
+<li><p>Sub-lists are made by indenting 2 spaces:</p></li>
 </ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>True if successful, False otherwise.</p>
-<p>The return type is not optional. The <code class="docutils literal notranslate"><span class="pre">Returns</span></code> section may span
-multiple lines and paragraphs. Following lines should be indented to
-match the first line of the description.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">Returns</span></code> section supports any reStructuredText formatting,
-including literal blocks:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="s1">&#39;param1&#39;</span><span class="p">:</span> <span class="n">param1</span><span class="p">,</span>
-    <span class="s1">&#39;param2&#39;</span><span class="p">:</span> <span class="n">param2</span>
-<span class="p">}</span>
+<ul>
+<li><p>Marker character change forces new list start:</p>
+<ul class="simple">
+<li><p>Ac tristique libero volutpat at</p></li>
+</ul>
+<ul class="simple">
+<li><p>Facilisis in pretium nisl aliquet</p></li>
+</ul>
+<ul class="simple">
+<li><p>Nulla volutpat aliquam velit</p></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li><p>Very easy!</p></li>
+</ul>
+<p>Ordered</p>
+<ol class="arabic simple">
+<li><p>Lorem ipsum dolor sit amet</p></li>
+<li><p>Consectetur adipiscing elit</p></li>
+<li><p>Integer molestie lorem at massa</p></li>
+<li><p>You can use sequential numbers…</p></li>
+<li><p>…or keep all the numbers as <code class="docutils literal notranslate"><span class="pre">1.</span></code></p></li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol class="arabic simple" start="57">
+<li><p>foo</p></li>
+<li><p>bar</p></li>
+</ol>
+</section>
+<section id="code">
+<h2>Code<a class="headerlink" href="#code" title="Link to this heading">#</a></h2>
+<p>Inline <code class="docutils literal notranslate"><span class="pre">code</span></code></p>
+<p>Indented code</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
 </pre></div>
 </div>
-</p>
-</dd>
-<dt class="field-odd">Return type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>bool</p>
-</dd>
-<dt class="field-even">Raises<span class="colon">:</span></dt>
-<dd class="field-even"><ul class="simple">
-<li><p><strong>AttributeError</strong> – The <code class="docutils literal notranslate"><span class="pre">Raises</span></code> section is a list of all exceptions
-    that are relevant to the interface.</p></li>
-<li><p><strong>ValueError</strong> – If <cite>param2</cite> is equal to <cite>param1</cite>.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
+<p>Block code “fences”</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Sample</span> <span class="n">text</span> <span class="n">here</span><span class="o">...</span>
+</pre></div>
+</div>
+<p>Syntax highlighting</p>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">bar</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="k">return</span><span class="w"> </span><span class="nx">bar</span><span class="o">++</span><span class="p">;</span>
+<span class="p">};</span>
 
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">foo</span><span class="p">(</span><span class="mf">5</span><span class="p">));</span>
+</pre></div>
+</div>
+</section>
 </section>
 
 
@@ -419,22 +448,13 @@ including literal blocks:</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="index.html"
+       href="api.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to Sphinx Quickstart Tutorial’s documentation!</p>
+        <p class="prev-next-title">API</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="mymarkdown.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Example Markdown</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -452,8 +472,25 @@ including literal blocks:</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utils.foo.module_level_variable1"><code class="docutils literal notranslate"><span class="pre">module_level_variable1</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utils.foo.module_level_function"><code class="docutils literal notranslate"><span class="pre">module_level_function()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#h2-heading">h2 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#h3-heading">h3 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#h4-heading">h4 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#h5-heading">h5 Heading</a><ul class="nav section-nav flex-column">
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#h6-heading">h6 Heading</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#horizontal-rules">Horizontal Rules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#typographic-replacements">Typographic replacements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emphasis">Emphasis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#blockquotes">Blockquotes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">Lists</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code">Code</a></li>
 </ul>
   </nav></div>
 

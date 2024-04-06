@@ -11,6 +11,7 @@ Welcome to Sphinx Quickstart Tutorial's documentation!
    :caption: Contents:
 
    api
+   mymarkdown
 
 
 Indices and tables

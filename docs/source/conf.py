@@ -26,7 +26,7 @@ extensions = [
     "sphinx.ext.napoleon",
     # "sphinx.ext.autosectionlabel",
     # "nbsphinx",
-    # "myst_parser",
+    "myst_parser",
     # "sphinx_copybutton",
 ]
 
