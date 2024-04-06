@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Sphinx Quickstart Guide'
+project = 'Sphinx Quickstart Tutorial'
 copyright = '2024, Ben Davis'
 author = 'Ben Davis'
 release = '1.0.0'
@@ -17,7 +17,7 @@ release = '1.0.0'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 
 

@@ -1,10 +1,10 @@
-.. Sphinx Quickstart Guide documentation master file, created by
-   sphinx-quickstart on Fri Apr  5 19:14:28 2024.
+.. Sphinx Quickstart Tutorial documentation master file, created by
+   sphinx-quickstart on Fri Apr  5 20:10:24 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sphinx Quickstart Guide's documentation!
-===================================================
+Welcome to Sphinx Quickstart Tutorial's documentation!
+======================================================
 
 .. toctree::
    :maxdepth: 2
